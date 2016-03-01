@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6292F0DD1C852B0E001FC7FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6292F0DC1C852B0E001FC7FE /* main.m */; };
+		6292F0E01C852B0E001FC7FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6292F0DF1C852B0E001FC7FE /* AppDelegate.m */; };
+		6292F0E31C852B0E001FC7FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6292F0E21C852B0E001FC7FE /* ViewController.m */; };
+		6292F0E61C852B0E001FC7FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6292F0E41C852B0E001FC7FE /* Main.storyboard */; };
+		6292F0E81C852B0E001FC7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6292F0E71C852B0E001FC7FE /* Assets.xcassets */; };
+		6292F0EB1C852B0E001FC7FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6292F0E91C852B0E001FC7FE /* LaunchScreen.storyboard */; };
+		6292F0F61C852B0F001FC7FE /* HehedaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6292F0F51C852B0F001FC7FE /* HehedaTests.m */; };
+		6292F1011C852B0F001FC7FE /* HehedaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6292F1001C852B0F001FC7FE /* HehedaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6292F0F21C852B0F001FC7FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6292F0D01C852B0E001FC7FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6292F0D71C852B0E001FC7FE;
+			remoteInfo = Heheda;
+		};
+		6292F0FD1C852B0F001FC7FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6292F0D01C852B0E001FC7FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6292F0D71C852B0E001FC7FE;
+			remoteInfo = Heheda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6292F0D81C852B0E001FC7FE /* Heheda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heheda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6292F0DC1C852B0E001FC7FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6292F0DE1C852B0E001FC7FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6292F0DF1C852B0E001FC7FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6292F0E11C852B0E001FC7FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6292F0E21C852B0E001FC7FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6292F0E51C852B0E001FC7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6292F0E71C852B0E001FC7FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6292F0EA1C852B0E001FC7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6292F0EC1C852B0E001FC7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6292F0F11C852B0F001FC7FE /* HehedaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HehedaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6292F0F51C852B0F001FC7FE /* HehedaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HehedaTests.m; sourceTree = "<group>"; };
+		6292F0F71C852B0F001FC7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6292F0FC1C852B0F001FC7FE /* HehedaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HehedaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6292F1001C852B0F001FC7FE /* HehedaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HehedaUITests.m; sourceTree = "<group>"; };
+		6292F1021C852B0F001FC7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6292F0D51C852B0E001FC7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6292F0EE1C852B0F001FC7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6292F0F91C852B0F001FC7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6292F0CF1C852B0E001FC7FE = {
+			isa = PBXGroup;
+			children = (
+				6292F0DA1C852B0E001FC7FE /* Heheda */,
+				6292F0F41C852B0F001FC7FE /* HehedaTests */,
+				6292F0FF1C852B0F001FC7FE /* HehedaUITests */,
+				6292F0D91C852B0E001FC7FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6292F0D91C852B0E001FC7FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6292F0D81C852B0E001FC7FE /* Heheda.app */,
+				6292F0F11C852B0F001FC7FE /* HehedaTests.xctest */,
+				6292F0FC1C852B0F001FC7FE /* HehedaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6292F0DA1C852B0E001FC7FE /* Heheda */ = {
+			isa = PBXGroup;
+			children = (
+				6292F0DE1C852B0E001FC7FE /* AppDelegate.h */,
+				6292F0DF1C852B0E001FC7FE /* AppDelegate.m */,
+				6292F0E11C852B0E001FC7FE /* ViewController.h */,
+				6292F0E21C852B0E001FC7FE /* ViewController.m */,
+				6292F0E41C852B0E001FC7FE /* Main.storyboard */,
+				6292F0E71C852B0E001FC7FE /* Assets.xcassets */,
+				6292F0E91C852B0E001FC7FE /* LaunchScreen.storyboard */,
+				6292F0EC1C852B0E001FC7FE /* Info.plist */,
+				6292F0DB1C852B0E001FC7FE /* Supporting Files */,
+			);
+			path = Heheda;
+			sourceTree = "<group>";
+		};
+		6292F0DB1C852B0E001FC7FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6292F0DC1C852B0E001FC7FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6292F0F41C852B0F001FC7FE /* HehedaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6292F0F51C852B0F001FC7FE /* HehedaTests.m */,
+				6292F0F71C852B0F001FC7FE /* Info.plist */,
+			);
+			path = HehedaTests;
+			sourceTree = "<group>";
+		};
+		6292F0FF1C852B0F001FC7FE /* HehedaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6292F1001C852B0F001FC7FE /* HehedaUITests.m */,
+				6292F1021C852B0F001FC7FE /* Info.plist */,
+			);
+			path = HehedaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6292F0D71C852B0E001FC7FE /* Heheda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6292F1051C852B0F001FC7FE /* Build configuration list for PBXNativeTarget "Heheda" */;
+			buildPhases = (
+				6292F0D41C852B0E001FC7FE /* Sources */,
+				6292F0D51C852B0E001FC7FE /* Frameworks */,
+				6292F0D61C852B0E001FC7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heheda;
+			productName = Heheda;
+			productReference = 6292F0D81C852B0E001FC7FE /* Heheda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6292F0F01C852B0F001FC7FE /* HehedaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6292F1081C852B0F001FC7FE /* Build configuration list for PBXNativeTarget "HehedaTests" */;
+			buildPhases = (
+				6292F0ED1C852B0F001FC7FE /* Sources */,
+				6292F0EE1C852B0F001FC7FE /* Frameworks */,
+				6292F0EF1C852B0F001FC7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6292F0F31C852B0F001FC7FE /* PBXTargetDependency */,
+			);
+			name = HehedaTests;
+			productName = HehedaTests;
+			productReference = 6292F0F11C852B0F001FC7FE /* HehedaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6292F0FB1C852B0F001FC7FE /* HehedaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6292F10B1C852B0F001FC7FE /* Build configuration list for PBXNativeTarget "HehedaUITests" */;
+			buildPhases = (
+				6292F0F81C852B0F001FC7FE /* Sources */,
+				6292F0F91C852B0F001FC7FE /* Frameworks */,
+				6292F0FA1C852B0F001FC7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6292F0FE1C852B0F001FC7FE /* PBXTargetDependency */,
+			);
+			name = HehedaUITests;
+			productName = HehedaUITests;
+			productReference = 6292F0FC1C852B0F001FC7FE /* HehedaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6292F0D01C852B0E001FC7FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = heyuanwu;
+				TargetAttributes = {
+					6292F0D71C852B0E001FC7FE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					6292F0F01C852B0F001FC7FE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6292F0D71C852B0E001FC7FE;
+					};
+					6292F0FB1C852B0F001FC7FE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6292F0D71C852B0E001FC7FE;
+					};
+				};
+			};
+			buildConfigurationList = 6292F0D31C852B0E001FC7FE /* Build configuration list for PBXProject "Heheda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6292F0CF1C852B0E001FC7FE;
+			productRefGroup = 6292F0D91C852B0E001FC7FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6292F0D71C852B0E001FC7FE /* Heheda */,
+				6292F0F01C852B0F001FC7FE /* HehedaTests */,
+				6292F0FB1C852B0F001FC7FE /* HehedaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6292F0D61C852B0E001FC7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6292F0EB1C852B0E001FC7FE /* LaunchScreen.storyboard in Resources */,
+				6292F0E81C852B0E001FC7FE /* Assets.xcassets in Resources */,
+				6292F0E61C852B0E001FC7FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6292F0EF1C852B0F001FC7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6292F0FA1C852B0F001FC7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6292F0D41C852B0E001FC7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6292F0E31C852B0E001FC7FE /* ViewController.m in Sources */,
+				6292F0E01C852B0E001FC7FE /* AppDelegate.m in Sources */,
+				6292F0DD1C852B0E001FC7FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6292F0ED1C852B0F001FC7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6292F0F61C852B0F001FC7FE /* HehedaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6292F0F81C852B0F001FC7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6292F1011C852B0F001FC7FE /* HehedaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6292F0F31C852B0F001FC7FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6292F0D71C852B0E001FC7FE /* Heheda */;
+			targetProxy = 6292F0F21C852B0F001FC7FE /* PBXContainerItemProxy */;
+		};
+		6292F0FE1C852B0F001FC7FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6292F0D71C852B0E001FC7FE /* Heheda */;
+			targetProxy = 6292F0FD1C852B0F001FC7FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6292F0E41C852B0E001FC7FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6292F0E51C852B0E001FC7FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6292F0E91C852B0E001FC7FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6292F0EA1C852B0E001FC7FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6292F1031C852B0F001FC7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6292F1041C852B0F001FC7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6292F1061C852B0F001FC7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Heheda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7.Heheda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6292F1071C852B0F001FC7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Heheda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7.Heheda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6292F1091C852B0F001FC7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HehedaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7.HehedaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heheda.app/Heheda";
+			};
+			name = Debug;
+		};
+		6292F10A1C852B0F001FC7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HehedaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7.HehedaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heheda.app/Heheda";
+			};
+			name = Release;
+		};
+		6292F10C1C852B0F001FC7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HehedaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7.HehedaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Heheda;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6292F10D1C852B0F001FC7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HehedaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7.HehedaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Heheda;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6292F0D31C852B0E001FC7FE /* Build configuration list for PBXProject "Heheda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6292F1031C852B0F001FC7FE /* Debug */,
+				6292F1041C852B0F001FC7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6292F1051C852B0F001FC7FE /* Build configuration list for PBXNativeTarget "Heheda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6292F1061C852B0F001FC7FE /* Debug */,
+				6292F1071C852B0F001FC7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6292F1081C852B0F001FC7FE /* Build configuration list for PBXNativeTarget "HehedaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6292F1091C852B0F001FC7FE /* Debug */,
+				6292F10A1C852B0F001FC7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6292F10B1C852B0F001FC7FE /* Build configuration list for PBXNativeTarget "HehedaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6292F10C1C852B0F001FC7FE /* Debug */,
+				6292F10D1C852B0F001FC7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6292F0D01C852B0E001FC7FE /* Project object */;
+}
