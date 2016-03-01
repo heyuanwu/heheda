@@ -19,6 +19,7 @@
     NSLog(@"heheda");
     NSLog(@"dfsdfsdfsdf");
     NSLog(@"dfddddd");
+    NSLog(@"dfddddffdgdfgfgdd");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
